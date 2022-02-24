@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+
+    //Base
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+    //Configuración firebase de aplicación web
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyBoClLPXGttEoEWTuImntOp_UVLDgwjGJw",
+        authDomain: "carrera-de-auto-multijug-d872a.firebaseapp.com",
+        databaseURL:
+          "https://carrera-de-auto-multijug-d872a-default-rtdb.firebaseio.com",
+        projectId: "carrera-de-auto-multijug-d872a",
+        storageBucket: "carrera-de-auto-multijug-d872a.appspot.com",
+        messagingSenderId: "10051720022",
+        appId: "1:10051720022:web:3258d4e4fedd77ffa57cf7",
+      };
+      //Inicialización
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/Player.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
